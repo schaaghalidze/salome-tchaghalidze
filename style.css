@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ body {
+    position: relative;
+    padding: 3rem;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(https://www.shutterstock.com/image-vector/oil-gas-industry-background-260nw-378639163.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(15px);
+    z-index: -1;
+}
+
+
+.heading{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+}
+img{
+    width: 900px;
+    height: 600px;
+    margin: 20px;
+    transition: all ease 0.3s;
+}
+img:hover{
+    transform: scale(1.05);
+}
+
+.text{
+    color: black;
+    margin-top: 25px;
+}
+.img1, .img2, .img3, .img4{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.flourish-embed {
+    width: 50%;
+    height: auto; 
+}
+p{
+    color: black;
+    font-size: 22px;
+    
+}
